@@ -1,0 +1,34 @@
+/* styles */
+.content2 {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-column-gap: 20px;
+}
+
+.red2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    grid-column: 1 / span 1;
+}
+
+.green2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    grid-column: 2 / span 1;
+}
+
+.yellow2 {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    grid-column: 3 / span 1;
+}
+
+.blue2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    grid-column: 4 / span 1;
+}
